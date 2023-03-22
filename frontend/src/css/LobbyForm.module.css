@@ -1,0 +1,45 @@
+.body {
+    overflow-y: auto;
+    background: rgb(1, 56, 56);
+}
+
+.myRow {
+    background: lightgrey;
+    border-radius: 20px;
+}
+
+.image {
+    display: block;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 50%;
+    box-shadow: 5px 10px #ccc;
+}
+
+.p {
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+    color: rgb(1, 1, 48);
+}
+
+.h3 {
+    text-align: center;
+    color: rgb(1, 1, 112);
+}
+
+.btn1 {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: #0284c7;
+    color: aliceblue;
+    border-radius: 7px;
+}
+
+.btn1:hover {
+    background-color: #0369a1;
+}

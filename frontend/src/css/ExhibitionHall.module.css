@@ -1,0 +1,207 @@
+.exbContainer {
+  position: relative;
+  max-width: 1222px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mainLogo {
+  position: absolute;
+  top: 2px;
+  left: 333px;
+  height: 148px;
+  width: 499px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.mainLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.outerProdBox {
+  position: absolute;
+  /* border: 1px solid black; */
+  /* background-color: aliceblue; */
+}
+
+.prodBox {
+  position: absolute;
+  bottom: 5px;
+  height: 40%;
+  width: 90%;
+  margin: 0 5%;
+  /* border: 1px solid black; */
+  /* background-color: purple; */
+  /* width: 100%; */
+}
+
+.smallProdBox {
+  width: 80%;
+  height: 35%;
+  margin: 0 10%;
+}
+
+.prodBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#opb-5 {
+  top: 295px;
+  left: 343px;
+  width: 110px;
+  height: 77px;
+  transform: skewX(340deg);
+}
+
+#opb-6 {
+  top: 295px;
+  left: 459px;
+  width: 107px;
+  height: 77px;
+  transform: skewX(344deg);
+  border-radius: 0 40px 0 0;
+}
+
+#opb-7 {
+  top: 294px;
+  left: 571px;
+  width: 105px;
+  height: 79px;
+  transform: skewX(355deg);
+  border-radius: 0 40px 0 0;
+}
+
+#opb-8 {
+  top: 295px;
+  left: 681px;
+  width: 104px;
+  height: 77px;
+  transform: skewX(7deg);
+  border-radius: 0 40px 0 0;
+}
+
+#opb-1 {
+  top: 381px;
+  left: 300px;
+  width: 129px;
+  height: 110px;
+  transform: skewX(340deg);
+}
+
+#opb-2 {
+  top: 381px;
+  left: 440px;
+  width: 114px;
+  height: 110px;
+  transform: skewX(344deg);
+  border-radius: 0 60px 0 0;
+}
+
+#opb-3 {
+  top: 381px;
+  left: 560px;
+  width: 118px;
+  height: 110px;
+  transform: skewX(357deg);
+  border-radius: 0 60px 0 0;
+}
+
+#opb-4 {
+  top: 381px;
+  left: 683px;
+  width: 129px;
+  height: 110px;
+  transform: skewX(8deg);
+  border-radius: 0 40px 0 0;
+}
+
+.lobby {
+  width: 100%;
+  margin: auto;
+  object-fit: contain;
+  display: block;
+  /* height: 99vh; */
+}
+
+@media screen and (max-width: 1240px) {
+  .lobby {
+    width: auto;
+  }
+
+  .mainLogo {
+    top: 2px;
+    left: 326px;
+    height: 143px;
+    width: 484px;
+  }
+
+  .smallProdBox {
+    width: 78%;
+    height: 31%;
+    margin: 0 11%;
+    bottom: 9px;
+  }
+
+  #opb-5 {
+    top: 284px;
+    left: 338px;
+    width: 102px;
+    height: 79px;
+  }
+
+  #opb-6 {
+    top: 284px;
+    left: 449px;
+    width: 101px;
+    height: 78px;
+  }
+
+  #opb-7 {
+    top: 287px;
+    left: 556px;
+    width: 101px;
+    height: 74px;
+  }
+
+  #opb-8 {
+    top: 285px;
+    left: 664px;
+    width: 104px;
+    height: 76px;
+  }
+
+  #opb-1 {
+    top: 374px;
+    left: 292px;
+    width: 128px;
+    height: 105px;
+  }
+
+  #opb-2 {
+    top: 373px;
+    left: 425px;
+    width: 116px;
+    height: 106px;
+  }
+
+  #opb-3 {
+    top: 372px;
+    left: 544px;
+    width: 118px;
+    height: 107px;
+  }
+
+  #opb-4 {
+    top: 373px;
+    left: 664px;
+    width: 129px;
+    height: 106px;
+  }
+}

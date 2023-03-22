@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+    background: url("./images/01_final.png") no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+} */
+
+body {
+  overflow-y: hidden;
+  /* overflow-y:visible; */
+}
+
+/* #zmmtg-root {
+    display: none;
+} */
+
+.conf-container {
+  width: 100%;
+}
+
+.conf-container img {
+  width: 1222px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* #zmmtg-root {
+    position: absolute !important;
+    width: 747px !important;
+    height: 370px !important;
+    top: 65px !important;
+    left: 392px !important;
+} */

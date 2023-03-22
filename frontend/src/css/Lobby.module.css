@@ -1,0 +1,179 @@
+.lobbyContainer {
+    position: relative;
+    max-width: 1222px; 
+	width: 100%;
+    margin: 0 auto;
+}
+
+.sponsorBox {
+    position: absolute;
+    object-fit: contain;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* background-color: aliceblue; */
+}
+
+#s-box-1 {
+    top: 100px;
+    left: 125px;
+    width: 128px;
+    height: 76px;
+    transform: rotate(14deg);
+}
+
+#s-box-2 {
+    top: 125px;
+    left: 255px;
+    width: 74px;
+    height: 220px;
+}
+
+#s-box-3 {
+    top: 150px;
+    left: 347px;
+    width: 74px;
+    height: 202px;
+}
+
+#s-box-4 {
+    top: 165px;
+    left: 433px;
+    width: 73px;
+    height: 186px;
+}
+
+.mainLogo {
+    position: absolute;
+    top: 144px;
+    left: 522px;
+    height: 95px;
+    width: 176px;
+}
+
+.mainVideo {
+    position: absolute;
+    top: 244px;
+    left: 520px;
+    height: 104px;
+    width: 183px;
+}
+
+.mainVideoUploaded {
+    position: absolute;
+    top: 247px;
+    left: 523px;
+    height: 96px;
+    width: 175px;
+}
+
+#s-box-5 {
+    top: 165px;
+    left: 718px;
+    width: 74px;
+    height: 186px;
+}
+
+#s-box-6 {
+    top: 148px;
+    left: 805px;
+    width: 74px;
+    height: 204px;
+}
+
+#s-box-7 {
+    top: 126px;
+    left: 895px;
+    width: 74px;
+    height: 227px;
+}
+
+#s-box-8 {
+    top: 102px;
+    left: 967px;
+    width: 127px;
+    height: 73px;
+    transform: rotate(-14deg);
+}
+
+.sponsorBox img { 
+    max-width: 100%;
+}
+
+.lobby {
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
+    display: block;
+    /* height: 99vh; */
+}
+
+
+
+@media screen and (max-width: 1240px) {
+    .lobby {
+        width: auto;
+    }
+
+    body {
+        overflow-y: auto;  /* To prevent the vertical scrollbar*/
+    }
+
+    #s-box-1 {
+        top: 114px;
+        left: 138px;
+    }
+    
+    #s-box-2 {
+        top: 139px;
+        left: 269px;
+    }
+    
+    #s-box-3 {
+        top: 164px;
+        left: 366px;
+    }
+    
+    #s-box-4 {
+        top: 179px;
+        left: 456px;
+    }
+    
+    .mainLogo {
+        top: 158px;
+        left: 551px;
+    }
+    
+    .mainVideo {
+        top: 258px;
+        left: 549px;
+    }
+
+    .mainVideoUploaded {
+        top: 258px;
+        left: 548px;
+    }
+
+    #s-box-5 {
+        top: 179px;
+        left: 754px;
+    }
+    
+    #s-box-6 {
+        top: 162px;
+        left: 845px;
+    }
+    
+    #s-box-7 {
+        top: 140px;
+        left: 939px;
+    }
+    
+    #s-box-8 {
+        top: 105px;
+        left: 1018px;
+    }
+    
+}
