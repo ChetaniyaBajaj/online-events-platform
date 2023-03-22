@@ -1,0 +1,31 @@
+{
+  "name": "online-events-backend",
+  "version": "1.0.0",
+  "description": "This is the backend server to handle the GET and POST request for images, video, links, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chaitanya Sondur",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "control": "^0.2.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "flash": "^1.1.0",
+    "formidable": "^2.0.1",
+    "mongoose": "^6.4.0",
+    "multer": "^1.4.5-lts.1",
+    "mv": "^2.1.1",
+    "nodemailer": "^6.7.6",
+    "otp-generator": "^4.0.0",
+    "process": "^0.11.10"
+  }
+}
